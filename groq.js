@@ -96,7 +96,7 @@ async function getGroqChatStream(userQuestion) {
     ],
     model: "llama-3.1-70b-versatile",
     temperature: 0.5,
-    max_tokens: 4000,
+    max_tokens: 8000,
     top_p: 0.5,
     stop: null,
     stream: true,
