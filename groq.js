@@ -91,7 +91,7 @@ async function getGroqChatStream(userQuestion) {
       },
       {
         role: "user",
-        content: `${userQuestion} Rewrite this content above 4000 words using differnt sentences without changing the core meaning in Telugu`,
+        content: `${userQuestion} Rewrite this content under 2000 words using differnt sentences without changing the core meaning in Telugu`,
       },
     ],
     model: "llama-3.1-70b-versatile",
