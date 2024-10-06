@@ -94,7 +94,7 @@ async function getGroqChatStream(userQuestion) {
         content: `${userQuestion} Rewrite this content in Telugu`,
       },
     ],
-    model: "llama-3.1-70b-versatile",
+    model: "llama-3.1-8b-instant",
     temperature: 0.5,
     max_tokens: 8000,
     top_p: 0.5,
