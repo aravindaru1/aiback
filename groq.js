@@ -91,7 +91,7 @@ async function getGroqChatStream(userQuestion) {
       },
       {
         role: "user",
-        content: `${userQuestion} Rewrite this content in Telugu with headings and paragraphs atleast four sections`,
+        content: `${userQuestion} Rewrite this content in Telugu`,
       },
     ],
     model: "llama-3.1-70b-versatile",
