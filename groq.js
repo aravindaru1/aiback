@@ -53,7 +53,7 @@ app.get('/latestnewstelugu', async (req, res) => {
 });
 
 // Route to scrape content from a provided URL and send it to Groq AI
-app.post('/scrape', async (req, res) => {
+app.post('/ai', async (req, res) => {
     const { url } = req.body;
     if (!url) {
         return res.status(400).json({ error: 'URL is required' });
